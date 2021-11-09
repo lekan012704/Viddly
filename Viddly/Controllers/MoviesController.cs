@@ -10,10 +10,13 @@ namespace Viddly.Controllers
     public class MoviesController : Controller
     {
         // GET: Movies
+// HEAD
 
         public MoviesController()
         {
         }
+
+// 7e1c40d7cfec58e571a0a03d12162098b58296ae
         public ActionResult Random()
         {
             var movie = new Movie()
@@ -22,6 +25,7 @@ namespace Viddly.Controllers
             };
             return View(movie);
         }
+/// HEAD
         public ActionResult Edit(int id)
         {
             return Content("id=" + id);
@@ -44,8 +48,10 @@ namespace Viddly.Controllers
                 return View();
             }
 
-        z
+        
         }
 
     
+    }
+
 }
