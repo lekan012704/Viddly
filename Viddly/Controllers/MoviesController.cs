@@ -29,7 +29,7 @@ namespace Viddly.Controllers
         public ActionResult Edit(int id)
         {
             return Content("id=" + id);
-        }
+    }
 
         public ActionResult Index(int? pageindex , string sortby)
         {
